@@ -1,0 +1,26 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+  overscroll-behavior-y: none;
+  background-color: #333;
+}
+*[picimo] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: rgb(0, 0, 8);
+  background: linear-gradient(
+    174deg,
+    rgba(0, 0, 8, 1) 0%,
+    rgba(12, 31, 77, 1) 65%,
+    rgba(16, 91, 157, 1) 88%,
+    rgba(77, 161, 179, 1) 100%
+  );
+}
